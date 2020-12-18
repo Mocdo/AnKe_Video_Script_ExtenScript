@@ -1,2 +1,2 @@
 # AnKe_Video_Script_ExtenScript
- a extenscript to make videos
+ an extenscript script to make videos
