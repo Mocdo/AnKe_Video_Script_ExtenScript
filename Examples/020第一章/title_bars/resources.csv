@@ -1,0 +1,27 @@
+//name, filename, title_type
+
+//默认情况下，字幕框在图像上方。当title_type含有'battle'时，将其按正常顺序放置
+
+
+底部白,Title_bottom_white.prtl,base
+底部深绿,Title_bottom_darkgreen.prtl,base
+底部青,Title_bottom_cyan.prtl,base
+底部蓝,Title_bottom_blue.prtl,base
+底部黑,Title_bottom_black.prtl,base
+
+
+右侧白,Title_sideRight_white.prtl,sideRight
+左侧白,Title_sideLeft_white.prtl,sideLeft
+
+作者的话,作者的话.prtl,author
+
+
+
+//战斗
+战斗开始蓝,Battle_start_blue.prtl,battleStart
+战斗开始圆圈蓝Battle_start_cycle_blue.prtl,battleStart
+
+战斗主界面蓝,Battle_main_blue.prtl,battleMain
+战斗中底部对话蓝,Title_battle_main_bottom_blue.prtl,battleBase
+
+全屏中白,Title_center_white.prtl,center

@@ -1,0 +1,83 @@
+//name, filename, title_type, number_of_inputs,dice属性
+
+//"title_type"的前半 要与 title_bar 里的"title_type"匹配
+//例："battleStartLeft"的字幕会匹配 "battleStart"的字幕框
+
+//加入新字幕时会消除"title_type"相关的字幕
+
+
+//"dice属性" 可以为空
+//"dice属性" 以 "transparent" 与 "solid" 为一对，检测到时作特殊处理（更平滑的过渡） 
+
+
+
+
+作者的话,作者的话.prtl,author,14											//23字
+作者吐槽右下黑,作者吐槽右下黑.prtl,baseAuthor,3									//15字
+
+底部单行旁白黑,baseOtherSingleLineBlack.prtl,baseMain,1
+底部多行旁白黑,baseOtherMultiLineBlack.prtl,baseMain,4							//33字
+
+底部单行对话黑,baseConversationSingleLineBlack.prtl,baseMain,3
+底部多行对话黑,baseConversationMultiLineBlack.prtl,baseMain,6					//37字
+
+底部骰子透明黑,baseRollTransparentBlack.prtl,baseMain,5,transparent
+底部骰子实体黑,baseRollSolidBlack.prtl,baseMain,5,solid
+
+顶部中间黑,topMiddleBlack.prtl,top,1
+顶部中间白,topMiddleWhite.prtl,top,1
+
+//右侧10选1黑,sideRight10C1Black.prtl,sideRight,12
+右侧10选1骰子黑,sideRight10C1骰子Black.prtl,baseMain,2							//16字
+右侧10选1选项黑,sideRight10C1选项Black.prtl,sideRight,10					//23字
+
+//左侧10选1黑,sideLeft10C1Black.prtl,sideLeft,12
+左侧10选1骰子黑,sideLeft10C1骰子Black.prtl,baseMain,2							//16字
+左侧10选1选项黑,sideLeft10C1选项Black.prtl,sideLeft,10						//23字
+
+全屏中双栏介绍左黑,centerOtherLeftBlack.prtl,centerLeft,14
+全屏中双栏介绍右黑,centerOtherRightBlack.prtl,centerRight,14
+全屏中单栏介绍黑,centerOtherOneColumnBlack.prtl,center,15					//33字
+全屏中单栏偏右介绍黑,centerOtherOneColumnRightBlack.prtl,center,15			//33字
+
+右侧滚动旁白黑,sideRight滚动旁白Black.prtl,sideRight,12
+
+
+//战斗开始
+
+战斗开始恶战,battleStart恶战.prtl,battleStartMiddle,0
+
+战斗开始基本信息左默认,battleStartBasicInfoLeft默认灰白.prtl,battleStartLeft,5
+战斗开始基本信息左小伞蓝白,battleStartBasicInfoLeft小伞蓝白.prtl,battleStartLeft,5
+
+战斗开始基本信息右默认,battleStartBasicInfoRight默认灰白.prtl,battleStartRight,5
+战斗开始基本信息右杂鱼灰,battleStartBasicInfoRight杂鱼灰.prtl,battleStartRight,5
+
+战斗开始技能信息左黄黑,battleStartSkillInfoLeft黄黑黄巾兵用.prtl,battleStartLeft,10
+
+战斗开始技能信息右紫白,battleStartSkillInfoRight紫白小伞专用.prtl,battleStartRight,10
+
+
+//战斗主
+
+战斗主基本信息左默认,battleMainBasicInfoLeft默认黑白.prtl,battleMainLeft,11							//
+战斗主基本信息左小伞蓝白,battleMainBasicInfoLeft小伞蓝白.prtl,battleMainLeft,11
+
+战斗主基本信息右默认,battleMainBasicInfoRight默认黑白.prtl,battleMainRight,11
+战斗主基本信息右杂鱼黑灰,battleMainBasicInfoRight杂鱼黑灰.prtl,battleMainRight,11
+
+战斗主主体10选1骰子透明默认,battleMain主体10C1骰子透明默认.prtl,battleMainCenterUpper,2,transparent
+战斗主主体10选1骰子实体默认,battleMain主体10C1骰子实体默认.prtl,battleMainCenterUpper,2,solid
+战斗主主体10选1骰子选项默认,battleMain主体10C1选项默认.prtl,battleMainCenterLower,10
+
+战斗主主体技能释放默认,battleMain主体技能释放默认黑白.prtl,battleMainCenter,11						//技能在第二行
+战斗主主体通用默认,battleMain主体中对齐默认通用黑白.prtl,battleMainCenter,12
+
+战斗主底部对话默认,battleMainBaseConversationMultiLine默认黑白.prtl,battleBase,4					//20字
+战斗主底部旁白默认,battleMainBaseOtherMultiLine默认黑白.prtl,battleBase,4							//18字
+
+战斗主作者吐槽右上,battleMain作者吐槽右上默认黑白.prtl,battleMainAuthor,3							//15字
+
+
+
+
