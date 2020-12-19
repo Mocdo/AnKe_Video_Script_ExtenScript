@@ -1,0 +1,19 @@
+//name, filename, title_type, number_of_inputs,dice属性
+//"dice属性" 可以为空
+//"dice属性" 以 "transparent" 与 "solid" 为一对，检测到时作特殊处理（更平滑的过渡） 
+
+
+底部单行旁白黑,baseOtherSingleLineBlack.prtl,base,1
+底部多行旁白黑,baseOtherMultiLineBlack.prtl,base,4
+
+底部单行对话黑,baseConversationSingleLineBlack.prtl,base,3
+底部多行对话黑,baseConversationMultiLineBlack.prtl,base,6
+
+底部骰子透明黑,baseRollTransparentBlack.prtl,base,5,transparent
+底部骰子实体黑,baseRollSolidBlack.prtl,base,5,solid
+
+顶部中间黑,topMiddleBlack.prtl,top,1
+顶部中间白,topMiddleWhite.prtl,top,1
+
+
+作者的话,作者的话.prtl,author,13
