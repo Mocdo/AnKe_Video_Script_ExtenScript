@@ -2,9 +2,9 @@
  an extenscript script to make videos
 
 # Example Videos (made by this tool) / 脚本制作成品例
-https://www.bilibili.com/video/BV1Lz4y1r7CQ/
-https://www.bilibili.com/video/BV1wa4y1p7ZY/
-https://www.bilibili.com/video/BV1zA411s7gT/
+https://www.bilibili.com/video/BV1Lz4y1r7CQ/ <br/>
+https://www.bilibili.com/video/BV1wa4y1p7ZY/ <br/>
+https://www.bilibili.com/video/BV1zA411s7gT/ <br/>
 
 # What You Need For This Tool / 必要工具
 1. Premiere Pro 2020
