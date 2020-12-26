@@ -92,3 +92,5 @@ Please view below list together with examples in `examples` directory.<br/>
   |<sup>Name <br/>(used in `Script.txt`)|<sup>File Name <br/>(Shown in File System)|<sup>Title type <br/>(used to match title bars, and new title will substitute old title with same type)|<sup>Number of Inputs <br/>(how many inputs can the template contain, related to the "creating templates" and "`set_title` command in `Script.txt`")|<sup>SpecialType <br/>(for special templates such as dice. normal templates can ignore this.)|
   | -- | --- | --- | --- | --- | 
   |<sup>图片名<br/>（在`Script.txt`里用到）|<sup>文件名<br/>（文件夹里的名字）|<sup>字幕模板类型<br/>（用于匹配字幕框，同时新的同类型字幕会替代原同类型字幕）| <sup>输入量<br/>（字幕最多能有多少个输入，与 “制作字母模板” 和 “`Script.txt`中的`set_title`命令” 相关）|<sup>特殊类型<br/>（用于特殊模板，例如骰子模板。通常模板可以无视此项）|
+
+# Commands in `Script.txt` / `Script.txt`内的命令
