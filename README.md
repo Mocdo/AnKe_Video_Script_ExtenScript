@@ -94,3 +94,40 @@ Please view below list together with examples in `examples` directory.<br/>
   |<sup>图片名<br/>（在`Script.txt`里用到）|<sup>文件名<br/>（文件夹里的名字）|<sup>字幕模板类型<br/>（用于匹配字幕框，同时新的同类型字幕会替代原同类型字幕）| <sup>输入量<br/>（字幕最多能有多少个输入，与 “制作字母模板” 和 “`Script.txt`中的`set_title`命令” 相关）|<sup>特殊类型<br/>（用于特殊模板，例如骰子模板。通常模板可以无视此项）|
 
 # Commands in `Script.txt` / `Script.txt`内的命令
+* set_bg
+* clear_bg
+* 
+* set_img
+* clear_img
+* 
+* set_bgm
+* clear_bgm
+* set_sound
+* clear_sound
+* 
+* set_face
+* set_face_move_in
+* clear_face
+* clear_face_throw
+* clear_face_move
+* 
+* set_face_blink
+* 
+* set_title_bar
+* clear_title_bar
+* 
+* set_title
+* clear_title
+* 
+* wait
+* end
+* 
+* set_marker
+* 
+* set_para
+* 
+* save
+* 
+* load
+
+
