@@ -96,38 +96,37 @@ Please view below list together with examples in `examples` directory.<br/>
 # Commands in `Script.txt` / `Script.txt`内的命令
 * set_bg
 * clear_bg
-* 
+
 * set_img
 * clear_img
-* 
+
 * set_bgm
 * clear_bgm
 * set_sound
 * clear_sound
-* 
+
 * set_face
 * set_face_move_in
 * clear_face
 * clear_face_throw
 * clear_face_move
-* 
+
 * set_face_blink
-* 
+
 * set_title_bar
 * clear_title_bar
-* 
+
 * set_title
 * clear_title
-* 
+
 * wait
 * end
-* 
+
 * set_marker
-* 
+
 * set_para
-* 
+
 * save
-* 
 * load
 
 
