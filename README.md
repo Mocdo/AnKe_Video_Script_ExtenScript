@@ -46,8 +46,8 @@ Please look up directory "Examples" in the this git project. <br/>
   * 音效类文件
 * title_bars
   * resources.csv
-  * title bar files (.prtl title files exported from Premiere Pro 2015.4)
-  * 字幕框文件 (从Premiere Pro 2015.4 输出的 .prtl 字幕文件)
+  * title bar files (.prtl title files exported from Premiere Pro 2015.4. Can be image files, but the script will not scale it.)
+  * 字幕框文件 (从Premiere Pro 2015.4 输出的 .prtl 字幕文件。也可以是图像文件，但脚本不会给其修改尺寸)
 * title_templates
   * resources.csv
   * title template files (.prtl title files exported from Premiere Pro 2015.4) <br/>
