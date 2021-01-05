@@ -188,13 +188,18 @@ Please view below list together with examples in `examples` directory.<br/>
   * set title. above images. above related `title bar`.
   * 请参照项目例子。
   * please read example project scripts. 
+  * `set_title:底部单行旁白黑:4 字幕1 字幕2 字幕3`。 `底部单行旁白黑`是字幕模板名，在`title_templates/resources.csv`里。`4` 是字幕停留时间，与`wait:4`作用相同。`字幕1` `字幕2` `字幕3` 分别用1个空格隔开，是字母模板的替换词。
+  
   * `~` 是增加（保留同模板的原字幕）
   * `~` at first location means appending
+  * `set_title:底部单行旁白黑:4 ~ 字幕2 字幕3`
   * `_` 空替换词，也指代空格
   * `_` is empty, and space in text
+  * `set_title:底部单行旁白黑:4 字幕1 _ 字幕3`
   * `~~` 在上一个替换词上增加
   * `~~` is appending to last "replace word"
-`
+  
+
 * clear_title
 
 * wait
@@ -217,3 +222,10 @@ Please view below list together with examples in `examples` directory.<br/>
   * `load:Slot1` 读取保存于`Slot1`里的状态
   * `load:Slot1` load to `Slot1`
 
+## 制作字幕模板 / how to make title template.
+用Premiere Pro 2015打开现有字母模板，仿照制作。
+如果运行完脚本，Premiere Pro 2020自动报错退出，那么99%都是字母模板制作出错了。出错的原因90%都是`RunCount`不匹配。
+可以用txt打开.ptrl文件，确认里面内容。.ptrl文件内部是xml格式。
+注意二点
+* `替换00` 需要在 `替换0011` 之前
+* 每个`RunCount`的值要一一对应。
