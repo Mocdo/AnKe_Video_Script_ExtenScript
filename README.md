@@ -223,9 +223,9 @@ Please view below list together with examples in `examples` directory.<br/>
   * `load:Slot1` load to `Slot1`
 
 ## 制作字幕模板 / how to make title template.
-用Premiere Pro 2015打开现有字母模板，仿照制作。
-如果运行完脚本，Premiere Pro 2020自动报错退出，那么99%都是字母模板制作出错了。出错的原因90%都是`RunCount`不匹配。
-可以用txt打开.ptrl文件，确认里面内容。.ptrl文件内部是xml格式。
-注意二点
+用Premiere Pro 2015打开现有字母模板，仿照制作。</br>
+如果运行完脚本，Premiere Pro 2020自动报错退出，那么99%都是字母模板制作出错了。出错的原因90%都是`RunCount`不匹配。</br>
+可以用txt打开.ptrl文件，确认里面内容。.ptrl文件内部是xml格式。</br>
+注意二点:</br>
 * `替换00` 需要在 `替换0011` 之前
 * 每个`RunCount`的值要一一对应。
