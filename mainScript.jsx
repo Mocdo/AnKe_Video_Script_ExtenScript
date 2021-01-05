@@ -2188,7 +2188,7 @@ function incrementTime(value){
 	//clear tempUsedTracks
 	
 	for(var i=0;i<tempUsedTracks.length;i++){
-		if(toBe*frameLength>tempUsedTracks[i][1]){
+		if((currStartTime + value - frameLength) > tempUsedTracks[i][1]){
 			markEmptyClip(tempUsedTracks[i][0]);
 			tempUsedTracks.splice(i,1);
 			i--;
@@ -2317,11 +2317,18 @@ function getDefaultMotion(type, position){
                     positionParam = [1137.5/1280, 0.5];
 					anchorPointParam = [0.5, 1];
 				break;
+				case "战斗右全屏":
+                    positionParam = [0.85, 0.6];
+					anchorPointParam = [0.5, 0.5];
+				break;
 				case "战斗对话":
                     positionParam = [290/1280, 510/720];
 					anchorPointParam = [0, 1];
 				break;
-
+                case "默认正中":
+                    positionParam = [0.5, 0.5];
+					anchorPointParam = [0.5, 0.5];
+                break;
                 default:
                     positionParam = [0.5, faceBase];
 					anchorPointParam = [0.5, 1];
@@ -2351,13 +2358,13 @@ function getDefaultMotion(type, position){
                     positionParam = [0.85, 0.6];
                 break;
                 case "全身上左":
-                    positionParam = [0.15, 0.43];
+                    positionParam = [0.2, 0.43];
                 break;
                 case "全身上中":
                     positionParam = [0.5, 0.43];
                 break;
                 case "全身上右":
-                    positionParam = [0.85, 0.43];
+                    positionParam = [0.8, 0.43];
                 break;
 				case "战斗开始左":
 					positionParam = [0.25,0.75];
@@ -2369,6 +2376,7 @@ function getDefaultMotion(type, position){
 				break;
                 case "默认正中":
                     positionParam = [0.5, 0.5];
+					anchorPointParam = [0.5, 0.5];
                 break;
                 default:
                     positionParam = [0.5, 0.5];
@@ -2661,7 +2669,7 @@ function findEmptyChangeTrack(is_title){
     for(var i=topTrack;i>topTrack-6;i--){
         if(videoTracks[i].clips.numItems <= 0 && videoTrackLastClips[i].type == "empty"){return i;}
         //$.write ("");
-        if(videoTrackLastClips[i].type == "empty" && videoTracks[i].clips[videoTracks[i].clips.numItems-1].end.seconds <= currStartTime){
+        if(videoTrackLastClips[i].type == "empty" && videoTracks[i].clips[videoTracks[i].clips.numItems-1].end.seconds+frameLength < currStartTime){
 			return i;
 		}
     }
@@ -2975,7 +2983,7 @@ function parseCSV(csvFile, path){
     return [map, paths, itemMap];
 }
 
-//for image & faces  [name, filename, scale]
+//for image & faces  [name, filename, scale, type]
 function parseCSV1(csvFile, path){
     var paths = [];
     var map = {};
